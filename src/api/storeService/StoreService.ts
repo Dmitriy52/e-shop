@@ -4,7 +4,7 @@ class StoreService {
     private apiService: Api;
 
     constructor() {
-        this.apiService = new Api('https://app.ecwid.com/');
+        this.apiService = new Api('https://app.ecwid.com/api/v3/storeId/categories');
     }
 
     async getCategories() {

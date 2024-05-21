@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
-import CategoryList from '@/components/CategoryList.vue';
-import ProductList from '@/components/ProductList.vue';
-import ProductDetails from '@/components/ProductDetails.vue';
-import ShoppingCart from '@/components/ShoppingCart.vue';
+import CategoryList from '../components/CategoryList.vue';
+import ProductList from '../components/ProductList.vue';
+import ProductDetails from '../components/ProductDetails.vue';
+import ShoppingCart from '../components/ShoppingCart.vue';
 
 const routes: Array<RouteRecordRaw> = [
   { path: '/', component: CategoryList },

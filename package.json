@@ -12,6 +12,7 @@
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/material": "^5.15.18",
+    "@vue/runtime-core": "^3.4.27",
     "axios": "^1.7.0",
     "pinia": "^2.1.7",
     "vue": "^3.4.21",
